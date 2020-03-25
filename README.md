@@ -22,7 +22,9 @@ think everybody has a local nexus, every one want's to
 ## for java
 1. must use maven
 2. copy `maven4nexus.py` to your target maven module's root  
-3. run with `python maven4nexus.py -t [nexus repo path] -u [nexus username] -p [nexus password]`
+3. run with `python maven4nexus.py -p [maven module path](must) -t [nexus repo path](must) -u [nexus username](opt) -p [nexus password](opt)`
+4. use "-m [Maven Home]" to detect your maven home (opt)
+5. use "-j [JAVA Home]" to detect your java home (opt)
 
 # How
 1. For python
@@ -47,3 +49,5 @@ think everybody has a local nexus, every one want's to
 1. setup4nexus define a "simple_download" to download dependencies and "simple_twine2nexus" to upload them and builed wheel, it should be more robustness
 2. setup4nexus did not tested on a real MAC or linux, so I don't think it will work well, because it will open a terminal(only tested cmd on WIN) with subprocess to work.
 3. maven4nexus, just like the same....
+4. maven4nexus, may be writed as a maven plugin.
+5. no "CLI help info",because i'm a lazy boy
