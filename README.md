@@ -1,3 +1,5 @@
+Read from https://github.com/wangxi83/setup4nexus
+
 # setup4nexus
 simply upload your Python(Pypi) or JAVA(Maven)  packaged artifact like wheel or jar AND WITH ALL THERE DEPENDENCIES to your local nexus
 
